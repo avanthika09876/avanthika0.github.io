@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Container Styling */
+.container {
+  max-width: 800px;
+  background: #1e1e1e;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(61, 127, 213, 0.6);
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #ff006e;
+}
+
+header p {
+  font-style: italic;
+  color: #ccc;
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 111px;
+  height: auto;
+  border-radius: 10%;
+  margin-bottom: 15px;
+  border: 4px solid #ff006e;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+ul li {
+  margin: 8px 0;
+}
+
+/* Links */
+a {
+  color: #ff8cb4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
